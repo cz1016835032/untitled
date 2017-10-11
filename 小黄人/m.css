@@ -1,0 +1,62 @@
+.box{
+    width: 360px;
+    height: 450px;
+    border: 1px solid #aaa;
+    margin: 100px auto;
+}
+.mbody{
+    width: 240px;
+    height: 400px;
+    border: 5px solid #000;
+    border-radius: 115px;
+    margin: 0 auto;
+    background: #f9d946;
+    position: relative;
+    overflow: hidden;
+
+}
+.trousers {
+    width: 240px;
+    height: 100px;
+    border-top: 6px solid #000;
+    border-bottom-right-radius: 115px;
+    border-bottom-left-radius: 115px;
+    background: #2074a0;
+    position: absolute;
+    bottom: 0;
+}
+.trousers_top{
+    width: 160px;
+    height: 60px;
+    border: 6px solid #000;
+    border-bottom: none;
+    background: #2074a0;
+    position: absolute;
+    bottom: 100px;
+    left: 34px;
+
+}
+.brace_l,.brace_r{
+    width: 100px;
+    height: 16px;
+    border: 5px solid #000;
+    background: #2074a0;
+    position: absolute;
+    left: -35px;
+    top: -90px;
+    transform: rotate(45deg);
+
+}
+.brace_r{
+    transform: rotate(135deg);
+    left: 165px;
+}
+.brace_p{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: #000;
+    position: absolute;
+    top: 4px;;
+    left: 88px;
+}
